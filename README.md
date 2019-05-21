@@ -11,7 +11,7 @@ Campaign monitor wrapper
             public HomeController()
             {
                 _listId = "someid";
-                _apiKey = somekeyT19//qAeTA14IQ==";
+                _apiKey = "somekeyT19//qAeTA14IQ==";
                 _repo = new CampaignRepository(_apiKey, _listId, 400);
             }
             public ActionResult Index()
